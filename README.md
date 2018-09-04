@@ -12,7 +12,7 @@ $ helm search bitnami
 ## Upstreamed charts (contributed to [kubernetes/charts](https://github.com/kubernetes/charts))
 
 - [Dokuwiki](https://github.com/kubernetes/charts/tree/master/stable/dokuwiki)
-- [Drupal](https://github.com/kubernetes/charts/tree/master/stable/drupal)
+- [Drupal](https://github.com/bitnami-labs/charts-with-test-results/tree/master/upstreamed/drupal)
 - [Ghost](https://github.com/kubernetes/charts/tree/master/stable/ghost)
 - [JasperReports](https://github.com/kubernetes/charts/tree/master/stable/jasperreports)
 - [Joomla!](https://github.com/kubernetes/charts/tree/master/stable/joomla)
