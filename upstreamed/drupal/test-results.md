@@ -6,7 +6,7 @@ Smoke tests are a subset of tests covering important functionality of an applica
 
 Bitnami maintained charts are smoke tested against several k8s clusters to ensure they work properly in all of them.
 
-## Summary
+## Test summary
 
 Application: **Drupal 8.5.6**
 
@@ -30,7 +30,7 @@ Test | GKE (Google) | AKS (Azure) | OKE (Oracle)
 [Add user](#a) | Ok | Ok | Ok | Ok
 [Login new user](#a) | Ok | Ok | Ok | Ok
 
-## Details
+## Test details
 
 ### Log in and out
 
