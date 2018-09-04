@@ -6,7 +6,7 @@ Smoke tests are a subset of tests covering important functionality of an applica
 
 Bitnami maintained charts are smoke tested against several k8s clusters to ensure they work properly in all of them.
 
-## Results
+## Summary
 
 Application: **Drupal 8.5.6**
 
@@ -14,10 +14,10 @@ Date: **2018-09-02 11:34:23**
 
 Test | GKE (Google) | AKS (Azure) | OKE (Oracle)
 --- | :---: | :---: | :---:
-Login - Logout  | Ok | Ok | Ok
-Check up-to-date  | Ok | Ok | Ok
+Log in and out  | Ok | Ok | Ok
+Check up to date  | Ok | Ok | Ok
 Add article | Ok | Ok | Ok
-Check article  | Ok | Ok | Ok
+Check existing article  | Ok | Ok | Ok
 Add image | Ok | Ok | Ok
 Check image | Ok | Ok | Ok
 Add page | Ok | Ok | Ok
@@ -29,3 +29,39 @@ Check logo | Ok | Ok | Ok | Ok
 Check htaccess | Ok | Ok | Ok | Ok
 Add user | Ok | Ok | Ok | Ok
 Login new user | Ok | Ok | Ok | Ok
+
+## Details
+
+### Test: Log in and out
+
+**Description**: It should be possible to log in and out  
+**Test results**:
+* AWS: **Pass** (in 4.3 seconds on 2018/09/01 at 23:49:13)
+* Azure: **Pass** (in 3.1 seconds on 2018/09/01 at 12:31:01)
+* Oracle: **Pass** (in 1.9 seconds on 2018/09/01 at 10:00:58)
+
+### Test: Check up to date
+
+**Description**: The application should be up to date  
+**Test results**:
+* AWS: **Pass** (in 4.3 seconds on 2018/09/01 at 23:49:13)
+* Azure: **Pass** (in 3.1 seconds on 2018/09/01 at 12:31:01)
+* Oracle: **Pass** (in 1.9 seconds on 2018/09/01 at 10:00:58)
+
+### Test: Add article
+
+**Description**: It should be possible to add an article  
+**Test results**:
+* AWS: **Pass** (in 4.3 seconds on 2018/09/01 at 23:49:13)
+* Azure: **Pass** (in 3.1 seconds on 2018/09/01 at 12:31:01)
+* Oracle: **Pass** (in 1.9 seconds on 2018/09/01 at 10:00:58)
+
+### Test: Check existing article
+
+**Description**: An article created in a previous test should exist  
+**Test results**:
+* AWS: **Pass** (in 4.3 seconds on 2018/09/01 at 23:49:13)
+* Azure: **Pass** (in 3.1 seconds on 2018/09/01 at 12:31:01)
+* Oracle: **Pass** (in 1.9 seconds on 2018/09/01 at 10:00:58)
+
+...
