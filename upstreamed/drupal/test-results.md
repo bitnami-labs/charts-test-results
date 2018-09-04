@@ -36,30 +36,31 @@ Test | GKE (Google) | AKS (Azure) | OKE (Oracle)
 
 - **Description**: It should be possible to log in and out  
 - **Test results**:
-  - AWS: **Pass** (in 4.3 seconds on 2018/09/01 at 23:49:13)
-  - Azure: **Pass** (in 3.1 seconds on 2018/09/01 at 12:31:01)
-  - Oracle: **Pass** (in 1.9 seconds on 2018/09/01 at 10:00:58)
+  - GCE (Google): **Pass** (in 4.3 seconds on 2018/09/01 at 23:49:13)
+  - AKS (Azure): **Pass** (in 3.1 seconds on 2018/09/01 at 12:31:01)
+  - OKE (Oracle): **Pass** (in 1.9 seconds on 2018/09/01 at 10:00:58)
 
 ### Check up to date
 
 - **Description**: The application should be up to date  
 - **Test results**:
-  - AWS: **Pass** (in 4.3 seconds on 2018/09/01 at 23:49:13)
-  - Azure: **Pass** (in 3.1 seconds on 2018/09/01 at 12:31:01)
-  - Oracle: **Pass** (in 1.9 seconds on 2018/09/01 at 10:00:58)
+  - GCE (Google): **Pass** (in 4.3 seconds on 2018/09/01 at 23:49:13)
+  - AKS (Azure): **Pass** (in 3.1 seconds on 2018/09/01 at 12:31:01)
+  - OKE (Oracle): **Pass** (in 1.9 seconds on 2018/09/01 at 10:00:58)
 
 ### Add article
 
 - **Description**: It should be possible to add an article  
 - **Test results**:
-  - AWS: **Pass** (in 4.3 seconds on 2018/09/01 at 23:49:13)
-  - Azure: **Pass** (in 3.1 seconds on 2018/09/01 at 12:31:01)
-  - Oracle: **Pass** (in 1.9 seconds on 2018/09/01 at 10:00:58)
+  - GCE (Google): **Pass** (in 4.3 seconds on 2018/09/01 at 23:49:13)
+  - AKS (Azure): **Pass** (in 3.1 seconds on 2018/09/01 at 12:31:01)
+  - OKE (Oracle): **Pass** (in 1.9 seconds on 2018/09/01 at 10:00:58)
 
 ### Check existing article
 
 - **Description**: An article created in a previous test should exist  
 - **Test results**:
-  - AWS: **Pass** (in 4.3 seconds on 2018/09/01 at 23:49:13)
-  - Azure: **Pass** (in 3.1 seconds on 2018/09/01 at 12:31:01)
-  - Oracle: **Pass** (in 1.9 seconds on 2018/09/01 at 10:00:58)
+  - GCE (Google): **Pass** (in 4.3 seconds on 2018/09/01 at 23:49:13)
+  - AKS (Azure): **Pass** (in 3.1 seconds on 2018/09/01 at 12:31:01)
+  - OKE (Oracle): **Pass** (in 1.9 seconds on 2018/09/01 at 10:00:58)
+
