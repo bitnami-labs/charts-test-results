@@ -64,3 +64,4 @@ Test | GKE (Google) | AKS (Azure) | OKE (Oracle)
   - AKS (Azure): **Pass** (in 3.1 seconds on 2018/09/01 at 12:31:01)
   - OKE (Oracle): **Pass** (in 1.9 seconds on 2018/09/01 at 10:00:58)
 
+### ...
