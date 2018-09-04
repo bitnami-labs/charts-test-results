@@ -10,29 +10,29 @@ Bitnami maintained charts are smoke tested against several k8s clusters to ensur
 
 Application: **Drupal 8.5.6**
 
-Date: **2018-09-02 11:34:23**
+Date: **2018-09-01 11:34:23**
 
 Test | GKE (Google) | AKS (Azure) | OKE (Oracle)
 --- | :---: | :---: | :---:
-Log in and out  | Ok | Ok | Ok
-Check up to date  | Ok | Ok | Ok
-Add article | Ok | Ok | Ok
-Check existing article  | Ok | Ok | Ok
-Add image | Ok | Ok | Ok
-Check image | Ok | Ok | Ok
-Add page | Ok | Ok | Ok
-Check page | Ok | Ok | Ok
-Change fav icon | Ok | Ok | Ok
-Check fav icon | Ok | Ok | Ok
-Change logo | Ok | Ok | Ok
-Check logo | Ok | Ok | Ok | Ok
-Check htaccess | Ok | Ok | Ok | Ok
-Add user | Ok | Ok | Ok | Ok
-Login new user | Ok | Ok | Ok | Ok
+[Log in and out](#log-in-and-out)  | Ok | Ok | Ok
+[Check up to date](#check-up-to-date)  | Ok | Ok | Ok
+[Add article](#add-article) | Ok | Ok | Ok
+[Check existing article](#check-existing-article)  | Ok | Ok | Ok
+[Add image](#a) | Ok | Ok | Ok
+[Check image](#a) | Ok | Ok | Ok
+[Add page](#a) | Ok | Ok | Ok
+[Check page](#a) | Ok | Ok | Ok
+[Change fav icon](#a) | Ok | Ok | Ok
+[Check fav icon](#a) | Ok | Ok | Ok
+[Change logo](#a) | Ok | Ok | Ok
+[Check logo](#a) | Ok | Ok | Ok | Ok
+[Check htaccess](#a) | Ok | Ok | Ok | Ok
+[Add user](#a) | Ok | Ok | Ok | Ok
+[Login new user](#a) | Ok | Ok | Ok | Ok
 
 ## Details
 
-### Test: Log in and out
+### Log in and out
 
 **Description**: It should be possible to log in and out  
 **Test results**:
@@ -40,7 +40,7 @@ Login new user | Ok | Ok | Ok | Ok
 * Azure: **Pass** (in 3.1 seconds on 2018/09/01 at 12:31:01)
 * Oracle: **Pass** (in 1.9 seconds on 2018/09/01 at 10:00:58)
 
-### Test: Check up to date
+### Check up to date
 
 **Description**: The application should be up to date  
 **Test results**:
@@ -48,7 +48,7 @@ Login new user | Ok | Ok | Ok | Ok
 * Azure: **Pass** (in 3.1 seconds on 2018/09/01 at 12:31:01)
 * Oracle: **Pass** (in 1.9 seconds on 2018/09/01 at 10:00:58)
 
-### Test: Add article
+### Add article
 
 **Description**: It should be possible to add an article  
 **Test results**:
@@ -56,7 +56,7 @@ Login new user | Ok | Ok | Ok | Ok
 * Azure: **Pass** (in 3.1 seconds on 2018/09/01 at 12:31:01)
 * Oracle: **Pass** (in 1.9 seconds on 2018/09/01 at 10:00:58)
 
-### Test: Check existing article
+### Check existing article
 
 **Description**: An article created in a previous test should exist  
 **Test results**:
