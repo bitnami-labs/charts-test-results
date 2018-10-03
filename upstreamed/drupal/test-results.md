@@ -2,7 +2,7 @@
 
 ## Smoke testing
 
-Smoke tests are a subset of tests covering important functionality of an application, used to aid assessment if its main functions appear to work correctly. They are not a replacement of a properly tested application, which should be done by the upstreaam project.
+Smoke tests are a subset of tests covering important functionality of an application, used to aid assessment if its main functions appear to work correctly. They are not a replacement of a properly tested application, which should be done by the upstream project.
 
 Bitnami maintained charts are smoke tested against several k8s clusters to ensure they work properly in all of them.
 
